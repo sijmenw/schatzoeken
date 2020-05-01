@@ -12,7 +12,7 @@ class DrawMatrix(object):
         self.color_scheme = color_scheme
         self.res = res_per_cell
 
-    def create_png(self, output_path="matrix.png"):
+    def create_png(self, output_path="eiland.png"):
         height, width = self.matrix.shape
         image = np.zeros([height, width, 3])
 
